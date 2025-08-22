@@ -1,4 +1,10 @@
-const ItemCounter = () => {
+interface Props {
+    name: string;
+    quantity?: number;
+}
+
+const ItemCounter = ({name, quantity}: Props) => {
+
   return (
     <section
         style = {{
@@ -13,9 +19,10 @@ const ItemCounter = () => {
             fontWeight: 'bold',
         }}
         >
-            Nintendo Swtich 2</span>
+          {name}
+        </span>
         <button> +1</button>
-        <span>10</span>
+        <span>{quantity}</span>
         <button>-1</button>
     </section>
   )
