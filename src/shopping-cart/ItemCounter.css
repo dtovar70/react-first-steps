@@ -1,0 +1,20 @@
+.item-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.item-text{
+    font-size: 20;
+    font-weight: bold;
+    width: 150px;;
+}
+
+
+
+     /*    style={{
+            fontSize: 20,
+            fontWeight: 'bold',
+        }}
+         */
